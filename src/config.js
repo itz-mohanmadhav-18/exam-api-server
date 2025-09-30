@@ -3,7 +3,7 @@ const config = `<?xml version="1.0" encoding="utf-8"?>
 <plist version="1.0">
     <dict>
         <key>startURL</key>
-        <string>www.google.com</string>
+        <string>http://localhost:3000</string>
         <key>allowPreferencesWindow</key>
         <false />
         <key>browserViewMode</key>
@@ -2421,8 +2421,6 @@ const config = `<?xml version="1.0" encoding="utf-8"?>
         <false />
         <key>sebConfigPurpose</key>
         <integer>0</integer>
-        <key>hashedQuitPassword</key>
-        <string>7D7385660EC26F0AD5C7479B5727EDAE53FEAEED207C5F9E5A12282B8CD90134</string>
         <key>sebServiceIgnore</key>
         <false />
         <key>sebServicePolicy</key>
