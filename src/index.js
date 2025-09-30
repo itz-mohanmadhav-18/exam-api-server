@@ -6,7 +6,6 @@ const app = express();
 app.get('/', (req, res) => {
   // Set proper Content-Type and headers for SEB config
   res.set('Content-Type', 'application/x-plist');
-  res.set('Content-Disposition', 'attachment; filename="config.seb"');
   res.send(config);
 });
 
