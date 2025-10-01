@@ -2,8 +2,20 @@ const config = `<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
+        <key>logLevel</key>
+        <integer>3</integer>
+        <key>enableLogging</key>
+        <true/>
+        <key>browserExamKeySalt</key>
+        <data>QUJDREVGR0g=</data>
+        <key>logDirectoryWin</key>
+        <string>%USERPROFILE%\Desktop\SEBLogs</string>
+        <key>sebServerFallback</key>
+        <false/>
+        <key>debugMode</key>
+        <true/>
         <key>startURL</key>
-        <string>http://localhost:3000/question/all</string>
+        <string>http://localhost:5173/</string>
         <key>allowPreferencesWindow</key>
         <false />
         <key>browserViewMode</key>
