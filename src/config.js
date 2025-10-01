@@ -3,7 +3,7 @@ const config = `<?xml version="1.0" encoding="utf-8"?>
 <plist version="1.0">
     <dict>
         <key>startURL</key>
-        <string>http://localhost:3000</string>
+        <string>http://localhost:3000/question/all</string>
         <key>allowPreferencesWindow</key>
         <false />
         <key>browserViewMode</key>
